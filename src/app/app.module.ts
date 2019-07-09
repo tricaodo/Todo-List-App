@@ -9,7 +9,7 @@ import { TaskElementComponent } from './task-element/task-element.component';
   declarations: [
     AppComponent,
     CockpitComponent,
-    TaskElementComponent
+    TaskElementComponent,
   ],
   imports: [
     BrowserModule

@@ -9,6 +9,7 @@ export class CockpitComponent implements OnInit {
   @Output() taskCreated = new EventEmitter<{title: string, content: string}>();
   @ViewChild('titleInput', {static: true}) titleInput: ElementRef;
   @ViewChild('contentInput', {static: true}) contentInput: ElementRef;
+  showForm: boolean = true;
   constructor() { }
 
   ngOnInit() {
