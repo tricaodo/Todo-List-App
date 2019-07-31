@@ -5,14 +5,7 @@
 export const environment = {
   production: false,
   // Your web app's Firebase configuration
-    firebaseConfig: {
-    apiKey: "AIzaSyCa6LJOXtGNvBrYDobkAKmDLV6hB0BqBsg",
-    authDomain: "ng-app-demo.firebaseapp.com",
-    databaseURL: "https://ng-app-demo.firebaseio.com",
-    projectId: "ng-app-demo",
-    storageBucket: "",
-    messagingSenderId: "53789618070",
-    appId: "1:53789618070:web:13313bf6e5aad1fe"
+
   },
 // Initialize Firebase
 };
