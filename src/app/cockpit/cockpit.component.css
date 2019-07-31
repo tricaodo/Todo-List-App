@@ -4,3 +4,9 @@ textarea{
 .showTodoForm{
   display: none;
 }
+.btn-default{
+  background-color: lightgray;
+}
+.btn-default:hover{
+  background-color: darkgray;
+}

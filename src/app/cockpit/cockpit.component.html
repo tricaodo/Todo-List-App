@@ -1,6 +1,6 @@
 <div class="panel panel-default">
 
-    <button class="btn btn-primary btn-block" (click)="showForm = !showForm">Show Form <span class="caret"></span></button>
+    <button class="btn btn-default btn-block" (click)="showForm = !showForm">Show Form <span class="caret"></span></button>
     <div class="panel-heading">
       <strong>Todo Task</strong>
     </div>
@@ -9,7 +9,7 @@
       <input type="text" id="title" name="title" class="form-control" #titleInput>
       <label for="content">Content:</label>
       <textarea name="content" id="content" rows="7" class="form-control" #contentInput></textarea>
-      <button class="btn-sm btn-success btn-block" (click)="onAddTask()">Add Task</button>
-      <button class="btn-sm btn-warning btn-block" (click)="clearForm()">Cancel</button>
+      <button class="btn-sm btn-default btn-block" (click)="onAddTask()">Add Task</button>
+      <button class="btn-sm btn-default btn-block" (click)="clearForm()">Cancel</button>
     </div>
 </div>
